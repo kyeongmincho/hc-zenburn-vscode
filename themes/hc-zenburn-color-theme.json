@@ -134,6 +134,76 @@
             }
         },
         {
+            "name": "fg-1",
+            "scope": [],
+            "settings": {
+                "foreground": "#70705E"
+            }
+        },
+        {
+            "name": "bg-2",
+            "scope": [],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
+            "name": "bg-1",
+            "scope": [],
+            "settings": {
+                "foreground": "#202020"
+            }
+        },
+        {
+            "name": "bg-05",
+            "scope": [],
+            "settings": {
+                "foreground": "#2D2D2D"
+            }
+        },
+        {
+            "name": "bg",
+            "scope": [],
+            "settings": {
+                "foreground": "#313131"
+            }
+        },
+        {
+            "name": "bg+05",
+            "scope": [],
+            "settings": {
+                "foreground": "#383838"
+            }
+        },
+        {
+            "name": "bg+1",
+            "scope": [],
+            "settings": {
+                "foreground": "#3E3E3E"
+            }
+        },
+        {
+            "name": "bg+2",
+            "scope": [],
+            "settings": {
+                "foreground": "#4E4E4E"
+            }
+        },
+        {
+            "name": "bg+3",
+            "scope": [],
+            "settings": {
+                "foreground": "#5E5E5E"
+            }
+        },
+        {
+            "name": "red+1",
+            "scope": [],
+            "settings": {
+                "foreground": "#E9B0B0"
+            }
+        },
+        {
             "name": "red",
             "scope": [
                 "string.quoted.single",
@@ -145,7 +215,23 @@
             }
         },
         {
-            "name": "red-4",
+            "name": "red-1",
+            "scope": [
+            ],
+            "settings": {
+                "foreground": "#C99090"
+            }
+        },
+        {
+            "name": "red-2",
+            "scope": [
+            ],
+            "settings": {
+                "foreground": "#B98080"
+            }
+        },
+        {
+            "name": "red-3",
             "scope": [
                 "punctuation.definition.keyValuePair"
             ],
@@ -156,7 +242,6 @@
         {
             "name": "red-4",
             "scope": [
-                "punctuation.definition.keyValuePair",
                 "support.type.marker",
             ],
             "settings": {
@@ -229,6 +314,14 @@
             ],
             "settings": {
                 "foreground": "#DDCC9C"
+            }
+        },
+        {
+            "name": "green-1",
+            "scope": [
+            ],
+            "settings": {
+                "foreground": "#6C8C6C"
             }
         },
         {
