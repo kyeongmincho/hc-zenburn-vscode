@@ -1,0 +1,21 @@
+{
+    "name": "hc-zenburn-vscode",
+    "displayName": "hc-zenburn-vscode",
+    "description": "An higher contrast version of the popular Zenburn theme for Visual Studio Code.",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "hc-zenburn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/hc-zenburn-color-theme.json"
+            }
+        ]
+    }
+}
