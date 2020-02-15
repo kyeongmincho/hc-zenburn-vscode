@@ -16,7 +16,7 @@
         "editor.hoverHighlightBackground": "#202020",
         "editor.selectionHighlightBackground": "#4E4E4E",
         "editor.wordHighlightBackground": "#4E4E4E",
-        "editor.lineHighlightBackground": "#2D2D2D",
+        "editor.lineHighlightBackground": "#202020",
         "editorWarning.foreground": "#ECBC9C",
         "editorError.foreground": "#C99090",
         "editorInfo.foreground": "#DDCC9C",
