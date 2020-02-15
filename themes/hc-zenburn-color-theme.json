@@ -78,8 +78,6 @@
                 "storage.type",
                 "storage.modifier.const",
                 "storage.modifier.visibility",
-                "storage.class.std",
-                "support.function.std",
                 "punctuation.separator.dot-access",
                 "keyword.operator.delete",
                 "keyword.operator.new",
@@ -153,6 +151,16 @@
             ],
             "settings": {
                 "foreground": "#A97070"
+            }
+        },
+        {
+            "name": "red-4",
+            "scope": [
+                "punctuation.definition.keyValuePair",
+                "support.type.marker",
+            ],
+            "settings": {
+                "foreground": "#996060"
             }
         },
         {
@@ -312,6 +320,7 @@
             "name": "blue-1",
             "scope": [
                 "storage.type.core",
+                "support.type.core",
                 "support.constant.core",
                 "entity.name.type",
                 "storage.class.std",
@@ -358,7 +367,6 @@
         {
             "name": "magenta",
             "scope": [
-                "support.type.marker",
                 "punctuation.section.attribute",
             ],
             "settings": {
