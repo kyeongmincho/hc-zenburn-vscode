@@ -2,7 +2,31 @@
 
 ## Screenshot
 
+## Tips
 
+- If you use [C/C++](https://github.com/microsoft/vscode-cpptools), it may be better if you disable the option below:
+
+```json
+{
+    ...,
+    "C_Cpp.enhancedColorization": "Disabled",
+    ...
+}
+```
+
+- If you use [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2), I suggest the color settings below:
+
+```json
+{
+    ...,
+    "bracket-pair-colorizer-2.colors": [
+        "#DCDCCC",
+        "#CCF8CC",
+        "#FDECBC"
+    ],
+    ...
+}
+```
 
 ## License
 
