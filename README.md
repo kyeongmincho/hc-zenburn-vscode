@@ -33,7 +33,8 @@
 Copyright (C)2020 Kyeongmin Cho
 
 - Author: Kyeongmin Cho <kyeongmin.cho@kaist.ac.kr>
-- URL: https:github.com/drzix/hc-zenburn-vscode
+- URL: [https:github.com/drzix/hc-zenburn-vscode](https:github.com/drzix/hc-zenburn-vscode)
+
 Version 0.1
 
 This program is free software you can redistribute it and/or modify
@@ -52,8 +53,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ## Credits
 
 - Nantas Nardelli <nantas.nardelli@gmail.com> created the High Contrast
-Zenburn theme for emacs, which was a port of the vim theme made by Bozhidar Batsov. His repository can be found at: https://github.com/edran/hc-zenburn-emacs
+Zenburn theme for emacs, which was a port of the vim theme made by Bozhidar Batsov. His repository can be found at: [https://github.com/edran/hc-zenburn-emacs](https://github.com/edran/hc-zenburn-emacs)
 
 - Bozhidar Batsov <bozhidar@batsov.com> created the Zenburn theme
 for emacs, which was a port of the vim theme made by Jani Nurminen.
-His repository can be found at: https://github.com/bbatsov/zenburn-emacs
+His repository can be found at: [https://github.com/bbatsov/zenburn-emacs](https://github.com/bbatsov/zenburn-emacs)
