@@ -39,8 +39,8 @@
         "tab.activeBackground": "#202020",
         "tab.hoverBackground": "#252525",
         "tab.activeForeground": "#FDECBC",
-        "statusBar.background": "#313131",
-        "statusBar.foreground": "#DCDCCC",
+        "statusBar.background": "#202020",
+        "statusBar.foreground": "#ACD2AC",
         "input.border": "#2D2D2D",
         "input.foreground": "#DCDCCC",
         "inputValidation.errorBorder": "#C99090",
@@ -117,8 +117,7 @@
         },
         {
             "name": "fg+1",
-            "scope": [
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#FFFFFF"
             }
@@ -217,16 +216,14 @@
         },
         {
             "name": "red-1",
-            "scope": [
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#C99090"
             }
         },
         {
             "name": "red-2",
-            "scope": [
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#B98080"
             }
@@ -319,8 +316,7 @@
         },
         {
             "name": "green-1",
-            "scope": [
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#6C8C6C"
             }
@@ -336,8 +332,7 @@
         },
         {
             "name": "green+1",
-            "scope": [
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#9CBF9C"
             }
@@ -444,16 +439,14 @@
         },
         {
             "name": "blue-4",
-            "scope": [
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#597D80"
             }
         },
         {
             "name": "blue-5",
-            "scope": [
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#436D6D"
             }
