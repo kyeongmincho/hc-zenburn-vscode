@@ -61,6 +61,16 @@
         "terminal.background": "#2D2D2D",
         "breadcrumb.foreground": "#ACD2AC",
         "breadcrumb.background": "#202020",
+        "peekViewEditor.background": "#2D2D2D",
+        "peekView.border": "#202020",
+        "peekViewResult.background": "#383838",
+        "peekViewResult.fileForeground": "#DCDCCC",
+        "peekViewResult.selectionBackground": "#202020",
+        "peekViewResult.selectionForeground": "#DCDCCC",
+        "peekViewTitleLabel.foreground": "#FDECBC",
+        "peekViewTitleDescription.foreground": "#ACD2AC",
+        "peekViewEditor.matchHighlightBackground": "#5E5E5E",
+        "peekViewEditorGutter.background": "#202020",
     },
     "tokenColors": [
         //
