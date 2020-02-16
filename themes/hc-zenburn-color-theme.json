@@ -265,6 +265,8 @@
                 "variable.other.object.declare",
                 "meta.tail.struct",
                 "entity.name.lifetime",
+                "keyword.operator.misc", // ::, =>
+                "keyword.operator.sigil", // &
             ],
             "settings": {
                 "foreground": "#ECBC9C"
@@ -294,8 +296,6 @@
         {
             "name": "yellow-1",
             "scope": [
-                "keyword.operator.misc", // ::, =>
-                "keyword.operator.sigil", // &
                 "keyword.operator.assignment",
                 "keyword.operator.comparison",
                 "keyword.operator.arithmetic",
