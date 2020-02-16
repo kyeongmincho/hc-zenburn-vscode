@@ -79,7 +79,7 @@
                 "storage.type",
                 "storage.modifier.const",
                 "storage.modifier.visibility",
-                "punctuation.separator.dot-access",
+                "punctuation.separator",
                 "keyword.operator.delete",
                 "keyword.operator.new",
                 "meta.template.definition",
