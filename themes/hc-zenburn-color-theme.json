@@ -85,16 +85,20 @@
             "name": "bold",
             "scope": [
                 "keyword.other",
+                "keyword.operator", // CHECK: Is it fine?
                 "keyword.control",
                 "storage.type",
                 "storage.modifier.const",
                 "storage.modifier.visibility",
-                "punctuation.separator",
                 "keyword.operator.delete",
                 "keyword.operator.new",
                 "meta.template.definition",
                 "storage.modifier.inline",
                 "storage.modifier",
+                "keyword.operator.glob",
+                "keyword.operator.sigil", // &
+                "keyword.operator.misc", // ::, =>
+                "variable.other.return-value", // where
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -103,10 +107,40 @@
         {
             "name": "Italic",
             "scope": [
-                "variable.language.rust", // self
+                "variable.language.self.rust", // self
+                "entity.name.lifetime",
+                "storage.modifier.lifetime",
             ],
             "settings": {
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Underline",
+            "scope": [
+                "variable.other.map.rust",
+            ],
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "name": "Bold Underline",
+            "scope": [
+                "storage.modifier.mut",
+                "storage.modifier.mutable",
+            ],
+            "settings": {
+                "fontStyle": "bold underline"
+            }
+        },
+        {
+            "name": "Italic Bold Underline",
+            "scope": [
+                "keyword.other.unsafe",
+            ],
+            "settings": {
+                "fontStyle": "italic bold underline"
             }
         },
         {
@@ -119,7 +153,7 @@
                 "keyword.other.unit",
                 "storage.type.class.gtkdoc",
                 "storage.type.core",
-                "entity.name.lifetime",
+                "storage.modifier.lifetime",
             ],
             "settings": {
                 "fontStyle": ""
@@ -127,7 +161,9 @@
         },
         {
             "name": "fg+1",
-            "scope": [],
+            "scope": [
+                "keyword.operator.sigil", // &
+            ],
             "settings": {
                 "foreground": "#FFFFFF"
             }
@@ -138,6 +174,7 @@
                 "variable.other.object.access",
                 "variable.other.object",
                 "meta.body.function.definition.special.constructor",
+                "punctuation.definition.type",
             ],
             "settings": {
                 "foreground": "#DCDCCC"
@@ -207,8 +244,19 @@
             }
         },
         {
+            "name": "red+2",
+            "scope": [
+                "keyword.other.unsafe",
+            ],
+            "settings": {
+                "foreground": "#E66666"
+            }
+        },
+        {
             "name": "red+1",
-            "scope": [],
+            "scope": [
+                "keyword.operator.glob",
+            ],
             "settings": {
                 "foreground": "#E9B0B0"
             }
@@ -241,7 +289,9 @@
         {
             "name": "red-3",
             "scope": [
-                "punctuation.definition.keyValuePair"
+                "punctuation.definition.keyValuePair",
+                "entity.name.lifetime",
+                "storage.modifier.lifetime",
             ],
             "settings": {
                 "foreground": "#A97070"
@@ -249,9 +299,7 @@
         },
         {
             "name": "red-4",
-            "scope": [
-                "support.type.marker",
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#996060"
             }
@@ -264,12 +312,19 @@
                 "variable.parameter",
                 "variable.other.object.declare",
                 "meta.tail.struct",
-                "entity.name.lifetime",
-                "keyword.operator.misc", // ::, =>
-                "keyword.operator.sigil", // &
             ],
             "settings": {
                 "foreground": "#ECBC9C"
+            }
+        },
+        {
+            "name": "orange-1",
+            "scope": [
+                "support.type.marker",
+                "keyword.operator.match"
+            ],
+            "settings": {
+                "foreground": "#C4AD9E"
             }
         },
         {
@@ -280,7 +335,7 @@
                 "storage.type",
                 "storage.modifier.const",
                 "storage.modifier.visibility",
-                "variable.language.rust", // self,
+                "variable.language.self.rust", // self,
                 "punctuation.separator.dot-access",
                 "keyword.operator.delete",
                 "keyword.operator.new",
@@ -302,10 +357,11 @@
                 "keyword.operator.increment",
                 "keyword.operator.bitwise.shift",
                 "keyword.operator.logical",
+                "keyword.operator.misc", // ::, =>
                 "keyword.operator",
                 "punctuation.separator.pointer-access",
                 "punctuation.separator.scope-resolution", // ::
-                "storage.modifier.lifetime",
+                "punctuation.other.comma",
             ],
             "settings": {
                 "foreground": "#EDDCAC"
@@ -314,8 +370,8 @@
         {
             "name": "yellow-2",
             "scope": [
-                "keyword.other.unsafe",
                 "storage.modifier.mut",
+                "storage.modifier.mutable",
                 "constant.character.escape",
                 "punctuation.section.angle-brackets",
                 "keyword.other.unit",
@@ -381,6 +437,23 @@
             }
         },
         {
+            "name": "purple",
+            "scope": [],
+            "settings": {
+                "foreground": "#DAC0E9"
+            }
+        },
+        {
+            "name": "purple-1",
+            "scope": [
+                "entity.name.type.mod",
+                "entity.name.type.module"
+            ],
+            "settings": {
+                "foreground": "#BEADC9"
+            }
+        },
+        {
             "name": "cyan",
             "scope": [
                 "entity.name.function"
@@ -409,7 +482,8 @@
                 "keyword.control.directive.define",
                 "keyword.control.directive.include",
                 "support.function.builtin",
-                "entity.other.attribute-name"
+                "entity.other.attribute-name",
+                "support.other.macro",
             ],
             "settings": {
                 "foreground": "#9CC7FB"
@@ -441,7 +515,7 @@
         {
             "name": "blue-3",
             "scope": [
-                "meta.type_params"
+                "meta.type_params",
             ],
             "settings": {
                 "foreground": "#699598"
@@ -465,6 +539,7 @@
             "name": "magenta",
             "scope": [
                 "punctuation.section.attribute",
+                "constant.character",
             ],
             "settings": {
                 "foreground": "#E090C7"
