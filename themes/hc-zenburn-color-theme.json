@@ -105,7 +105,8 @@
                 "keyword.operator.glob",
                 "keyword.operator.sigil", // &
                 "keyword.operator.misc", // ::, =>
-                "variable.other.return-value", // where
+                "variable.other.return-value", // where,
+                "keyword.source",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -161,6 +162,8 @@
                 "storage.type.class.gtkdoc",
                 "storage.type.core",
                 "storage.modifier.lifetime",
+                "keyword.control.gallina",
+                "keyword.control.ltac",
             ],
             "settings": {
                 "fontStyle": ""
@@ -328,7 +331,8 @@
             "name": "orange-1",
             "scope": [
                 "support.type.marker",
-                "keyword.operator.match"
+                "keyword.operator.match",
+                "constant.numeric.gallina",
             ],
             "settings": {
                 "foreground": "#C4AD9E"
@@ -350,6 +354,7 @@
                 "storage.modifier.inline",
                 "storage.modifier",
                 "keyword.key",
+                "keyword.source",
             ],
             "settings": {
                 "foreground": "#FDECBC"
@@ -445,7 +450,9 @@
         },
         {
             "name": "purple",
-            "scope": [],
+            "scope": [
+                "constant.language.wildcard",
+            ],
             "settings": {
                 "foreground": "#DAC0E9"
             }
@@ -454,7 +461,7 @@
             "name": "purple-1",
             "scope": [
                 "entity.name.type.mod",
-                "entity.name.type.module"
+                "entity.name.type.module",
             ],
             "settings": {
                 "foreground": "#BEADC9"
@@ -505,6 +512,7 @@
                 "entity.name.type",
                 "storage.class.std",
                 "storage.type.built-in.primitive",
+                "support.type",
             ],
             "settings": {
                 "foreground": "#89C5C8"
@@ -513,7 +521,7 @@
         {
             "name": "blue-2",
             "scope": [
-                "meta.bracket.square.access"
+                "meta.bracket.square.access",
             ],
             "settings": {
                 "foreground": "#79ADB0"
