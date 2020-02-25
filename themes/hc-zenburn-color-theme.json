@@ -389,6 +389,7 @@
                 "punctuation.separator.slice",
                 "punctuation.separator.continuation.line",
                 "punctuation.separator.colon",
+                "punctuation.separator.delimiter.comma",
             ],
             "settings": {
                 "foreground": "#EDDCAC"
@@ -457,7 +458,6 @@
             "name": "green+4",
             "scope": [
                 "constant.numeric",
-                "entity.name.scope-resolution",
                 "constant.language.nullptr",
                 "constant.language.true",
                 "constant.language.false",
@@ -483,6 +483,8 @@
             "scope": [
                 "entity.name.type.mod",
                 "entity.name.type.module",
+                "entity.name.scope-resolution", // namespace access
+                "entity.name.namespace", // namespace define
             ],
             "settings": {
                 "foreground": "#BEADC9"
