@@ -2,6 +2,7 @@
     "name": "hc-zenburn",
     "type": "dark",
     "colors": {
+        "dropdown.background": "#3E3E3E",
         "focusBorder": "#70705E",
         "foreground": "#DCDCCC",
         "selection.background": "#202020",
