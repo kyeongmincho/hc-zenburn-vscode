@@ -109,6 +109,15 @@
                 "variable.other.return-value", // where,
                 "keyword.source",
                 "punctuation.separator",
+                "keyword.function",
+                "punctuation.other.period",
+                "keyword.var",
+                "keyword.package",
+                "keyword.import",
+                "keyword.type",
+                "keyword.struct",
+                "keyword.interface",
+                "keyword.const",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -168,6 +177,9 @@
                 "storage.modifier.lifetime",
                 "keyword.control.gallina",
                 "keyword.control.ltac",
+                "storage.type.error",
+                "storage.type.numeric",
+                "storage.type.string",
             ],
             "settings": {
                 "fontStyle": ""
@@ -179,6 +191,7 @@
                 "keyword.operator.sigil", // &, *
                 "keyword.operator.unpacking.arguments", // *, **
                 "keyword.operator.unpacking.parameter", // *, **
+                "keyword.operator.address",
             ],
             "settings": {
                 "foreground": "#FFFFFF"
@@ -331,6 +344,8 @@
                 "meta.tail.struct",
                 "constant.other.caps",
                 "punctuation.separator.type",
+                "variable.other.assignment",
+                "punctuation.other.colon",
             ],
             "settings": {
                 "foreground": "#ECBC9C"
@@ -365,6 +380,14 @@
                 "keyword.key",
                 "keyword.source",
                 "punctuation.separator.period",
+                "keyword.function",
+                "keyword.var",
+                "keyword.package",
+                "keyword.import",
+                "keyword.type",
+                "keyword.struct",
+                "keyword.interface",
+                "keyword.const",
             ],
             "settings": {
                 "foreground": "#FDECBC"
@@ -390,6 +413,7 @@
                 "punctuation.separator.continuation.line",
                 "punctuation.separator.colon",
                 "punctuation.separator.delimiter.comma",
+                "punctuation.other.period",
             ],
             "settings": {
                 "foreground": "#EDDCAC"
@@ -485,6 +509,7 @@
                 "entity.name.type.module",
                 "entity.name.scope-resolution", // namespace access
                 "entity.name.namespace", // namespace define
+                "entity.name.package",
             ],
             "settings": {
                 "foreground": "#BEADC9"
@@ -495,6 +520,7 @@
             "scope": [
                 "entity.name.function",
                 "meta.function-call.generic",
+                "support.function",
             ],
             "settings": {
                 "foreground": "#A0EDF0"
@@ -538,6 +564,9 @@
                 "storage.class.std",
                 "storage.type.built-in.primitive",
                 "support.type",
+                "storage.type.error",
+                "storage.type.numeric",
+                "storage.type.string",
             ],
             "settings": {
                 "foreground": "#89C5C8"
@@ -582,6 +611,7 @@
             "scope": [
                 "punctuation.section.attribute",
                 "constant.character",
+                "constant.other.placeholder",
             ],
             "settings": {
                 "foreground": "#E090C7"
