@@ -35,8 +35,10 @@
         "activityBarBadge.background": "#202020",
         "editorWidget.foreground": "#DCDCCC",
         "editorWidget.background": "#2D2D2D",
-        "editor.findMatchBackground": "#202020",
-        "editor.findMatchHighlightBackground": "#4E4E4E",
+        "editor.findMatchBackground": "#000000",
+        "editor.findMatchHighlightBackground": "#000000",
+        "editor.findMatchBorder": "#d6b454",
+        "editor.findMatchHighlightBorder": "#d6b354b0",
         "editorLineNumber.foreground": "#ACD2AC",
         "editorGroup.dropBackground": "#0000004f",
         "tab.activeBackground": "#202020",
@@ -84,6 +86,8 @@
         //
         // - Supported languages:
         //   + Rust
+        //   + C/C++
+        //   + Coq
         //
         // - "###.###.###.@@@" --written--> "###.###.###"
         //   where "@@@" is the name of language
