@@ -356,7 +356,6 @@
             "scope": [
                 "support.type.marker",
                 "keyword.operator.match",
-                "constant.numeric.gallina",
                 "meta.member.access",
             ],
             "settings": {
@@ -486,6 +485,7 @@
                 "constant.language.true",
                 "constant.language.false",
                 "constant.language",
+                "constant.numeric.gallina",
             ],
             "settings": {
                 "foreground": "#CCF8CC"
