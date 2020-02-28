@@ -406,6 +406,7 @@
                 "keyword.operator.bitwise.shift",
                 "keyword.operator.logical",
                 "keyword.operator.misc", // ::, =>
+                "keyword.operator.member-access",
                 "keyword.operator",
                 "punctuation.separator.pointer-access",
                 "punctuation.separator.scope-resolution", // ::
