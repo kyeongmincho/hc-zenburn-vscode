@@ -676,7 +676,6 @@
         {
             "name": "blue-2",
             "scope": [
-                "meta.bracket.square.access",
                 "meta.item-access.arguments",
             ],
             "settings": {
