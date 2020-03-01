@@ -23,6 +23,10 @@ A Visual Studio Code theme,
 
 ![cpp](images/cpp.png)
 
+- Python
+
+![python](images/python.png)
+
 ## Tips
 
 - If you use [C/C++](https://github.com/microsoft/vscode-cpptools), it may be better if you disable the option below:
