@@ -9,19 +9,19 @@ A Visual Studio Code theme,
 
 - Rust
 
-![rust](https://github.com/drzix/hc-zenburn-vscode/raw/master/images/rust.png)
+![rust](images/rust.png)
 
 *with [vscode-rust-syntax](https://github.com/dunstontc/vscode-rust-syntax.git)*
 
 - Coq
 
-![coq](https://github.com/drzix/hc-zenburn-vscode/raw/master/images/coq.png)
+![coq](images/coq.png)
 
 *with [VSCoq](https://github.com/coq-community/vscoq.git)*
 
 - C/C++
 
-![cpp](https://github.com/drzix/hc-zenburn-vscode/raw/master/images/cpp.png)
+![cpp](images/cpp.png)
 
 ## Tips
 
