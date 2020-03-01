@@ -33,6 +33,8 @@
         "diffEditor.removedTextBackground": "#4e3c3c",
         "editorLightBulb.foreground": "#FDECBC",
         "editorLightBulbAutoFix.foreground": "#9CBF9C",
+        "merge.currentHeaderBackground": "#536653",
+        "merge.incomingHeaderBackground": "#436D6D",
         "problemsErrorIcon.foreground": "#C99090",
         "problemsWarningIcon.foreground": "#ECBC9C",
         "editorUnnecessaryCode.opacity": "#00000080",
@@ -455,10 +457,17 @@
             }
         },
         {
-            "name": "green-2",
+            "name": "green-3",
             "scope": [],
             "settings": {
                 "foreground": "#3f493f"
+            }
+        },
+        {
+            "name": "green-2",
+            "scope": [],
+            "settings": {
+                "foreground": "#536653"
             }
         },
         {
