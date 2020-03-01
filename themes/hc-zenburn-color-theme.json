@@ -44,7 +44,7 @@
         "diffEditor.insertedTextBackground": "#3f493f",
         "diffEditor.removedTextBackground": "#4e3c3c",
         "editorLightBulb.foreground": "#FDECBC",
-        "editorLightBulbAutoFix.foreground": "#9CBF9C",
+        "editorLightBulbAutoFix.foreground": "#E090C7",
         "merge.currentHeaderBackground": "#536653",
         "merge.incomingHeaderBackground": "#436D6D",
         "problemsErrorIcon.foreground": "#C99090",
