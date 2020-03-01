@@ -1,7 +1,11 @@
 {
     "name": "hc-zenburn-vscode",
-    "displayName": "hc-zenburn-vscode",
-    "description": "An higher contrast version of the popular Zenburn theme for Visual Studio Code.",
+    "displayName": "Higher Contrast Zenburn",
+    "publisher": "drzix",
+    "description": "A higher contrast version of the popular Zenburn theme for Visual Studio Code.",
+    "author": {
+        "name": "Kyeongmin Cho"
+    },
     "version": "0.1.0",
     "engines": {
         "vscode": "^1.42.0"
@@ -9,13 +13,23 @@
     "categories": [
         "Themes"
     ],
+    "icon": "images/icon.png",
     "contributes": {
         "themes": [
             {
-                "label": "hc-zenburn",
+                "label": "Higher Contrast Zenburn",
                 "uiTheme": "vs-dark",
                 "path": "./themes/hc-zenburn-color-theme.json"
             }
         ]
+    },
+    "homepage": "https:github.com/drzix/hc-zenburn-vscode",
+    "bugs": {
+        "url": "https:github.com/drzix/hc-zenburn-vscode/issues",
+        "email": "kyeongmin.cho@kaist.ac.kr"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/drzix/hc-zenburn-vscode.git"
     }
 }

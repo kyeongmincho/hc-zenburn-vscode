@@ -1,6 +1,27 @@
-# An higher contrast version of the Zenburn theme
+# Higher Contrast Zenburn
 
-## Screenshot
+A Visual Studio Code theme,
+
+- ported from the Emacs one created by [Nantas Nardelli](https://github.com/edran/hc-zenburn-emacs),
+- a higher contrast version of the popular zenburn theme created by [Bozhidar Batsov](https://github.com/bbatsov/zenburn-emacs).
+
+## Language Support *(intended)*
+
+- Rust
+
+![rust](https://github.com/drzix/hc-zenburn-vscode/raw/master/images/rust.png)
+
+*with [vscode-rust-syntax](https://github.com/dunstontc/vscode-rust-syntax.git)*
+
+- Coq
+
+![coq](https://github.com/drzix/hc-zenburn-vscode/raw/master/images/coq.png)
+
+*with [VSCoq](https://github.com/coq-community/vscoq.git)*
+
+- C/C++
+
+![cpp](https://github.com/drzix/hc-zenburn-vscode/raw/master/images/cpp.png)
 
 ## Tips
 
@@ -8,9 +29,7 @@
 
 ```json
 {
-    ...,
     "C_Cpp.enhancedColorization": "Disabled",
-    ...
 }
 ```
 
@@ -18,13 +37,11 @@
 
 ```json
 {
-    ...,
     "bracket-pair-colorizer-2.colors": [
-        "#DCDCCC",
-        "#CCF8CC",
-        "#FDECBC"
+        "#dbc27e",
+        "#f5dfde",
+        "#b7cfc4",
     ],
-    ...
 }
 ```
 
