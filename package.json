@@ -6,7 +6,7 @@
     "author": {
         "name": "Kyeongmin Cho"
     },
-    "version": "0.1.1",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.42.0"
     },
@@ -15,11 +15,15 @@
     ],
     "keywords": [
         "zenburn",
-        "zen",
         "dark",
         "theme",
         "rust",
-        "coq"
+        "coq",
+        "dark theme",
+        "eye care",
+        "emacs",
+        "vim",
+        "high contrast"
     ],
     "icon": "images/icon.png",
     "contributes": {
