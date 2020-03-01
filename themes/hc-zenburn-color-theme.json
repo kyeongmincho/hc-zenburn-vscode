@@ -175,6 +175,7 @@
                 "keyword.struct",
                 "keyword.interface",
                 "keyword.const",
+                "punctuation.definition.tag",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -368,7 +369,7 @@
             "scope": [
                 "string.quoted.single",
                 "string.quoted.double",
-                "string.quoted.other.lt-gt.include"
+                "string.quoted.other.lt-gt.include",
             ],
             "settings": {
                 "foreground": "#D9A0A0"
@@ -493,6 +494,7 @@
                 "punctuation.separator.colon",
                 "punctuation.separator.delimiter.comma",
                 "punctuation.other.period",
+                "punctuation.separator.key-value",
             ],
             "settings": {
                 "foreground": "#EDDCAC"
@@ -509,6 +511,7 @@
                 "variable.language.self.rust", // self,
                 "variable.parameter.function.language.special.self.python", // self
                 "variable.language.special.self.python", // self
+                "punctuation.definition.tag",
             ],
             "settings": {
                 "foreground": "#DDCC9C"
@@ -622,6 +625,7 @@
                 "entity.name.function",
                 "meta.function-call.generic",
                 "support.function",
+                "meta.tag.custom",
             ],
             "settings": {
                 "foreground": "#A0EDF0"
@@ -669,6 +673,7 @@
                 "storage.type.error",
                 "storage.type.numeric",
                 "storage.type.string",
+                "meta.tag",
             ],
             "settings": {
                 "foreground": "#89C5C8"
