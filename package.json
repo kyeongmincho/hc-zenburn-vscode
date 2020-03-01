@@ -6,12 +6,20 @@
     "author": {
         "name": "Kyeongmin Cho"
     },
-    "version": "0.1.0",
+    "version": "0.1.1",
     "engines": {
         "vscode": "^1.42.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "zenburn",
+        "zen",
+        "dark",
+        "theme",
+        "rust",
+        "coq"
     ],
     "icon": "images/icon.png",
     "contributes": {
