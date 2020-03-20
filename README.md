@@ -74,7 +74,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ## Credits
 
 - Nantas Nardelli <nantas.nardelli@gmail.com> created the High Contrast
-Zenburn theme for emacs, which was a port of the vim theme made by Bozhidar Batsov. His repository can be found at: [https://github.com/edran/hc-zenburn-emacs](https://github.com/edran/hc-zenburn-emacs)
+Zenburn theme for emacs, which was a higher contrast version of the emacs Zenburn theme made by Bozhidar Batsov. His repository can be found at: [https://github.com/edran/hc-zenburn-emacs](https://github.com/edran/hc-zenburn-emacs)
 
 - Bozhidar Batsov <bozhidar@batsov.com> created the Zenburn theme
 for emacs, which was a port of the vim theme made by Jani Nurminen.
