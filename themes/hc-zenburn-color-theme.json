@@ -178,6 +178,7 @@
                 "keyword.interface",
                 "keyword.const",
                 "punctuation.definition.tag",
+                "markup.inline.raw",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -428,6 +429,8 @@
                 "punctuation.separator.type",
                 "variable.other.assignment",
                 "punctuation.other.colon",
+                "variable.other.rust",
+                "variable.other.mutable.rust",
             ],
             "settings": {
                 "foreground": "#ECBC9C"
@@ -578,6 +581,7 @@
             "name": "green+3",
             "scope": [
                 "storage.type.class.gtkdoc",
+                "markup.inline.raw",
             ],
             "settings": {
                 "foreground": "#BCE5BC"
