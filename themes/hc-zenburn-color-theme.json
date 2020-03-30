@@ -102,6 +102,23 @@
         "notificationsErrorIcon.foreground": "#C99090",
         "terminal.foreground": "#DCDCCC",
         "terminal.background": "#2D2D2D",
+        "terminal.ansiBlack": "#4E4E4E",
+        "terminal.ansiBlue": "#BEADC9",
+        "terminal.ansiBrightBlack": "#5E5E5E",
+        "terminal.ansiBrightBlue": "#DAC0E9",
+        "terminal.ansiBrightCyan": "#A0EDF0",
+        "terminal.ansiBrightGreen": "#8CAC8C",
+        "terminal.ansiBrightMagenta": "#E090C7",
+        "terminal.ansiBrightRed": "#E66666",
+        "terminal.ansiBrightWhite": "#FFFFFF",
+        "terminal.ansiBrightYellow": "#FDECBC",
+        "terminal.ansiCyan": "#94cacc",
+        "terminal.ansiGreen": "#6C8C6C",
+        "terminal.ansiMagenta": "#b986a9",
+        "terminal.ansiRed": "#D9A0A0",
+        "terminal.ansiWhite": "#DCDCCC",
+        "terminal.ansiYellow": "#EDDCAC",
+        "terminal.selectionBackground": "#597d8056",
         "breadcrumb.foreground": "#ACD2AC",
         "breadcrumb.background": "#202020",
         "peekViewEditor.background": "#2D2D2D",
@@ -141,10 +158,7 @@
         //   + Rust
         //   + C/C++
         //   + Coq
-        //
-        // - "###.###.###.@@@" --written--> "###.###.###"
-        //   where "@@@" is the name of language
-        //   except some special cases
+        //   + Python
         //
         {
             "name": "bold",
@@ -638,6 +652,13 @@
             }
         },
         {
+            "name": "cyan-1",
+            "scope": [],
+            "settings": {
+                "foreground": "#94cacc"
+            }
+        },
+        {
             "name": "blue+1",
             "scope": [
                 "entity.name.function.preprocessor",
@@ -727,6 +748,13 @@
             ],
             "settings": {
                 "foreground": "#E090C7"
+            }
+        },
+        {
+            "name": "magenta-1",
+            "scope": [],
+            "settings": {
+                "foreground": "#b986a9"
             }
         },
         {
