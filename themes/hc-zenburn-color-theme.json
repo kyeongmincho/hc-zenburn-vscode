@@ -164,7 +164,6 @@
             "name": "bold",
             "scope": [
                 "keyword.other",
-                // "keyword.operator", // CHECK: Is it fine?
                 "keyword.operator.member-access", // .
                 "keyword.control",
                 "storage.type",
@@ -177,11 +176,16 @@
                 "storage.modifier",
                 "keyword.operator.glob",
                 "keyword.operator.sigil", // &
-                // "keyword.operator.misc", // ::, =>
+                "keyword.operator.misc", // ::, =>
+                "keyword.operator.return-type", // ->
+                "keyword.operator.path", // ->
                 "variable.other.return-value", // where,
                 "keyword.source",
                 "punctuation.separator",
                 "punctuation.other.comma",
+                "punctuation.other.paren", // ()
+                "punctuation.definition.type", // < >
+                "punctuation.terminator", // ;
                 "keyword.function",
                 "punctuation.other.period",
                 "keyword.var",
