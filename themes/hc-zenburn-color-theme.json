@@ -134,6 +134,28 @@
             }
         },
         {
+            "name": "Magic functions",
+            "scope": [
+                "support.variable.magic",
+                "support.function.magic", // python __init__
+            ],
+            "settings": {
+                "foreground": "#DAC0E9"
+            }
+        },
+        {
+            "name": "Namespaces",
+            "scope": [
+                "entity.name.type.mod",
+                "entity.name.type.module",
+                "entity.name.namespace", // cpp namespace define
+                "entity.name.package",
+            ],
+            "settings": {
+                "foreground": "#BEADC9"
+            }
+        },
+        {
             "name": "Namespace-accesses",
             "scope": [
                 "entity.name.scope-resolution", // namespace access
@@ -178,7 +200,6 @@
                 "support.class",
                 "entity.name.class",
                 "entity.name.type",
-                "entity.name.namespace",
                 "storage.type.core",
                 "support.constant.core",
                 "entity.name.type",
@@ -436,6 +457,7 @@
                 "variable.interpolation",
                 "constant.character.format.placeholder", // python {}
                 "constant.other.placeholder",
+                "storage.type.format", // placeholder format
             ],
             "settings": {
                 "fontStyle": "bold",
