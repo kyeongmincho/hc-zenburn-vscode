@@ -73,6 +73,7 @@
                 "punctuation.separator",
                 "storage.modifier.pointer", // cpp *
                 "storage.modifier.reference", // cpp &
+                "punctuation.definition.function.pointer", // cpp function pointer
                 "source.ocaml support.type", // ocaml ->, |
             ],
             "settings": {
@@ -106,7 +107,8 @@
                 "storage.modifier.inline", // cpp inline
                 "storage.modifier.specifier.const", // cpp const
                 "punctuation.definition.tag", // ocaml struct, end
-                "source.ocaml entity.name.filename" // ocaml module
+                "source.ocaml entity.name.filename", // ocaml module
+                "storage.modifier.virtual", // cpp virtual
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -183,7 +185,10 @@
                 "storage.type.error",
                 "storage.type.numeric",
                 "storage.type.string",
-                "source.ocaml entity.name.class constant.numeric" // ocaml type
+                "source.ocaml entity.name.class constant.numeric", // ocaml type
+                // "meta.body.function.definition", // don't use
+                // "meta.body.class", // don't use
+                // "meta.body.function.definition.special.constructor" // don't use
             ],
             "settings": {
                 "fontStyle": "",
@@ -264,7 +269,10 @@
         },
         {
             "name": "Attributes",
-            "scope": "entity.other.attribute-name",
+            "scope": [
+                "entity.other.attribute-name",
+                "entity.other.attribute", // cpp alignas(**N**)
+            ],
             "settings": {
                 "foreground": "#ECBC9C"
             }
@@ -426,10 +434,20 @@
                 "punctuation.section.embedded",
                 "variable.interpolation",
                 "constant.character.format.placeholder", // python {}
+                "constant.other.placeholder",
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#E9B0B0"
+                "foreground": "#E090C7"
+            }
+        },
+        {
+            "name": "Special attributes",
+            "scope": [
+                "punctuation.section.attribute", // cpp alignas
+            ],
+            "settings": {
+                "foreground": "#b986a9"
             }
         },
         {
