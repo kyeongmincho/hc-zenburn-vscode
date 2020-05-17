@@ -28,7 +28,8 @@
             "name": "Comments",
             "scope": [
                 "comment",
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "source.ocaml meta.separator.markdown", // ocaml comment
             ],
             "settings": {
                 "foreground": "#8CAC8C"
@@ -136,6 +137,7 @@
             "name": "Namespace-accesses",
             "scope": [
                 "entity.name.scope-resolution", // namespace access
+                "source.ocaml entity.name.class constant.numeric", // ocaml module access
             ],
             "settings": {
                 "foreground": "#CCF8CC"
@@ -185,7 +187,6 @@
                 "storage.type.error",
                 "storage.type.numeric",
                 "storage.type.string",
-                "source.ocaml entity.name.class constant.numeric", // ocaml type
                 // "meta.body.function.definition", // don't use
                 // "meta.body.class", // don't use
                 // "meta.body.function.definition.special.constructor" // don't use
@@ -280,7 +281,7 @@
         {
             "name": "Attribute IDs",
             "scope": [
-                "entity.other.attribute-name.id", // also ocaml type
+                "entity.other.attribute-name.id", // also ocaml constructor
                 "punctuation.definition.entity"
             ],
             "settings": {
