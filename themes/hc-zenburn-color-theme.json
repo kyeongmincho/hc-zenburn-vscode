@@ -465,6 +465,17 @@
             }
         },
         {
+            "name": "Lifetimes",
+            "scope": [
+                "entity.name.lifetime",
+                "storage.modifier.lifetime",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#A97070"
+            }
+        },
+        {
             "name": "JSON Key - Level 0",
             "scope": [
                 "source.json meta.structure.dictionary.json support.type.property-name.json"
