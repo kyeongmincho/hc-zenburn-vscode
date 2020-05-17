@@ -163,39 +163,20 @@
         {
             "name": "bold",
             "scope": [
-                "keyword.other",
-                "keyword.operator.member-access", // .
-                "keyword.control",
                 "storage.type",
                 "storage.modifier.const",
                 "storage.modifier.visibility",
-                "keyword.operator.delete",
-                "keyword.operator.new",
                 "meta.template.definition",
                 "storage.modifier.inline",
                 "storage.modifier",
-                "keyword.operator.glob",
-                "keyword.operator.sigil", // &
-                "keyword.operator.misc", // ::, =>
-                "keyword.operator.return-type", // ->
-                "keyword.operator.path", // ->
                 "variable.other.return-value", // where,
-                "keyword.source",
                 "punctuation.separator",
                 "punctuation.other.comma",
                 "punctuation.other.paren", // ()
                 "punctuation.definition.type", // < >
                 "punctuation.terminator", // ;
-                "keyword.function",
                 "punctuation.other.period",
-                "keyword.var",
-                "keyword.package",
-                "keyword.import",
-                "keyword.type",
-                "keyword.struct",
-                "keyword.interface",
-                "keyword.const",
-                "punctuation.definition.tag",
+                "punctuation.definition.tag", // html tag, ocaml ()
                 "markup.inline.raw",
             ],
             "settings": {
@@ -387,11 +368,7 @@
         },
         {
             "name": "red",
-            "scope": [
-                "string.quoted.single",
-                "string.quoted.double",
-                "string.quoted.other.lt-gt.include",
-            ],
+            "scope": [],
             "settings": {
                 "foreground": "#D9A0A0"
             }
@@ -468,28 +445,14 @@
         {
             "name": "yellow",
             "scope": [
-                "keyword.other",
-                "keyword.control",
                 "storage.type",
                 "storage.modifier.const",
                 "storage.modifier.visibility",
                 "punctuation.separator.dot-access",
-                "keyword.operator.delete",
-                "keyword.operator.new",
                 "meta.template.definition",
                 "storage.modifier.inline",
                 "storage.modifier",
-                "keyword.key",
-                "keyword.source",
                 "punctuation.separator.period",
-                "keyword.function",
-                "keyword.var",
-                "keyword.package",
-                "keyword.import",
-                "keyword.type",
-                "keyword.struct",
-                "keyword.interface",
-                "keyword.const",
             ],
             "settings": {
                 "foreground": "#FDECBC"
@@ -694,7 +657,6 @@
             "name": "blue-1",
             "scope": [
                 "storage.type.core",
-                "support.type.core",
                 "support.constant.core",
                 "entity.name.type",
                 "storage.class.std",
@@ -860,15 +822,6 @@
             ],
             "settings": {
                 "foreground": "#C792EA"
-            }
-        },
-        {
-            "name": "Regular Expressions",
-            "scope": [
-                "string.regexp"
-            ],
-            "settings": {
-                "foreground": "#89DDFF"
             }
         },
         {
@@ -1180,6 +1133,25 @@
             "settings": {
                 "foreground": "#EEFFFF"
             }
-        }
+        },
+        {
+            "name": "other keyword",
+            "scope": [
+                "keyword"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#FDECBC", // yellow
+            }
+        },
+        {
+            "name": "other string",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#D9A0A0", // red
+            }
+        },
     ]
 }
