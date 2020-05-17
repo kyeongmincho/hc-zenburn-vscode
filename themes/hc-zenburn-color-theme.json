@@ -68,10 +68,26 @@
         },
         {
             "name": "Operators",
-            "scope": "keyword.operator",
+            "scope": [
+                "keyword.operator",
+                "punctuation.separator",
+                "storage.modifier.pointer", // cpp *
+                "storage.modifier.reference", // cpp &
+            ],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#EDDCAC"
+            }
+        },
+        {
+            "name": "Preproccesors",
+            "scope": [
+                "keyword.control.directive", // cpp #include, ifndef, ...
+                "meta.preprocessor",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#9CC7FB"
             }
         },
         {
@@ -82,7 +98,12 @@
                 "keyword.operator.new.cpp",
                 "keyword.operator.delete.cpp",
                 "keyword.other.using",
-                "keyword.other.operator"
+                "keyword.other.operator",
+                "storage.type",
+                "storage.modifier.const", // cpp const
+                "storage.modifier.static", // cpp static
+                "storage.modifier.inline", // cpp inline
+                "storage.modifier.specifier.const", // cpp const
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -90,8 +111,35 @@
             }
         },
         {
+            "name": "This/Self",
+            "scope": [
+                "variable.language"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#DDCC9C"
+            }
+        },
+        {
+            "name": "Member-accesses",
+            "scope": "meta.member.access",
+            "settings": {
+                "foreground": "#C4AD9E"
+            }
+        },
+        {
+            "name": "Namespace-accesses",
+            "scope": "entity.name.scope-resolution", // namespace access
+            "settings": {
+                "foreground": "#CCF8CC"
+            }
+        },
+        {
             "name": "Variables",
-            "scope": "variable",
+            "scope": [
+                "variable",
+                "meta.function-call.arguments",
+            ],
             "settings": {
                 "foreground": "#DCDCCC"
             }
@@ -108,22 +156,31 @@
             "scope": [
                 "entity.name.function",
                 "meta.require",
-                "support.function.any-method"
+                "support.function.any-method",
+                "meta.function-call.generic",
             ],
             "settings": {
                 "foreground": "#A0EDF0"
             }
         },
         {
-            "name": "Classes",
+            "name": "Types",
             "scope": [
                 "support.class",
                 "entity.name.class",
                 "entity.name.type",
                 "entity.name.namespace",
-                "entity.name.scope-resolution"
+                "storage.type.core",
+                "support.constant.core",
+                "entity.name.type",
+                "storage.type.built-in",
+                "support.type",
+                "storage.type.error",
+                "storage.type.numeric",
+                "storage.type.string",
             ],
             "settings": {
+                "fontStyle": "",
                 "foreground": "#89C5C8"
             }
         },
@@ -146,6 +203,8 @@
             "scope": [
                 "support.function",
                 "entity.name.function.macro",
+                "support.other.macro",
+                "entity.name.function.decorator",
             ],
             "settings": {
                 "foreground": "#9CC7FB"
@@ -344,7 +403,7 @@
             "name": "Regular Expressions",
             "scope": "string.regexp",
             "settings": {
-                "foreground": "#7e602c" // TODO
+                "foreground": "#BEADC9"
             }
         },
         {
@@ -358,11 +417,12 @@
             "name": "Embedded",
             "scope": [
                 "punctuation.section.embedded",
-                "variable.interpolation"
+                "variable.interpolation",
+                "constant.character.format.placeholder", // python {}
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#E9B0B0" // TODO
+                "foreground": "#E9B0B0"
             }
         },
         {
