@@ -11,7 +11,11 @@ A Visual Studio Code theme,
 
 ![rust](images/rust.png)
 
-*with [vscode-rust-syntax](https://github.com/dunstontc/vscode-rust-syntax.git)*
+- Ocaml
+
+![ocaml](images/ocaml.png)
+
+*with [OCaml and Resaon IDE](https://github.com/freebroccolo/vscode-reasonml.git)*
 
 - Coq
 
@@ -28,14 +32,6 @@ A Visual Studio Code theme,
 ![python](images/python.png)
 
 ## Tips
-
-- If you use [C/C++](https://github.com/microsoft/vscode-cpptools), it may be better if you disable the option below:
-
-```json
-{
-    "C_Cpp.enhancedColorization": "Disabled",
-}
-```
 
 - If you use [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2), I suggest the color settings below:
 
