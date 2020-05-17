@@ -6,7 +6,7 @@
     "author": {
         "name": "Kyeongmin Cho"
     },
-    "version": "0.1.2",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.42.0"
     },
