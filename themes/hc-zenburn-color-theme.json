@@ -18,10 +18,10 @@
             }
         },
         {
-            "name": "Text",
-            "scope": "variable.parameter.function",
+            "name": "Parameters",
+            "scope": "variable.parameter",
             "settings": {
-                "foreground": "#DCDCCC"
+                "foreground": "#ECBC9C"
             }
         },
         {
@@ -73,6 +73,7 @@
                 "punctuation.separator",
                 "storage.modifier.pointer", // cpp *
                 "storage.modifier.reference", // cpp &
+                "source.ocaml support.type", // ocaml ->, |
             ],
             "settings": {
                 "fontStyle": "",
@@ -104,6 +105,8 @@
                 "storage.modifier.static", // cpp static
                 "storage.modifier.inline", // cpp inline
                 "storage.modifier.specifier.const", // cpp const
+                "punctuation.definition.tag", // ocaml struct, end
+                "source.ocaml entity.name.filename" // ocaml module
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -129,7 +132,9 @@
         },
         {
             "name": "Namespace-accesses",
-            "scope": "entity.name.scope-resolution", // namespace access
+            "scope": [
+                "entity.name.scope-resolution", // namespace access
+            ],
             "settings": {
                 "foreground": "#CCF8CC"
             }
@@ -178,6 +183,7 @@
                 "storage.type.error",
                 "storage.type.numeric",
                 "storage.type.string",
+                "source.ocaml entity.name.class constant.numeric" // ocaml type
             ],
             "settings": {
                 "fontStyle": "",
@@ -266,11 +272,11 @@
         {
             "name": "Attribute IDs",
             "scope": [
-                "entity.other.attribute-name.id",
+                "entity.other.attribute-name.id", // also ocaml type
                 "punctuation.definition.entity"
             ],
             "settings": {
-                "foreground": "#8ab1b0" // TODO
+                "foreground": "#89C5C8"
             }
         },
         {
@@ -368,7 +374,7 @@
             "name": "Separator",
             "scope": "meta.separator",
             "settings": {
-                "foreground": "#d3af86" // TODO
+                "foreground": "#EDDCAC"
             }
         },
         {
@@ -403,14 +409,15 @@
             "name": "Regular Expressions",
             "scope": "string.regexp",
             "settings": {
-                "foreground": "#BEADC9"
+                "foreground": "#C4AD9E"
             }
         },
         {
             "name": "Escape Characters",
             "scope": "constant.character.escape",
             "settings": {
-                "foreground": "#DDCC9C"
+                "fontStyle": "bold",
+                "foreground": "#BEADC9"
             }
         },
         {
