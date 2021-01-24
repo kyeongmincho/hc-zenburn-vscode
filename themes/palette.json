@@ -35,8 +35,10 @@
     "green+3": "#BCE5BC",
     "green+4": "#CCF8CC",
     "purple": "#DAC0E9",
-    "purple-1": "#BEADC9",
+    "purple-05": "#BEADC9",
+    "purple-1": "#C5BBCC",
     "cyan": "#A0EDF0",
+    "cyan-05": "#A2C6D1",
     "cyan-1": "#94cacc",
     "blue+1": "#99DDE0",
     "blue": "#9CC7FB",
@@ -46,5 +48,5 @@
     "blue-4": "#597D80",
     "blue-5": "#436D6D",
     "magenta": "#E090C7",
-    "magenta-1": "#b986a9",
+    "magenta-1": "#B986A9"
 }
