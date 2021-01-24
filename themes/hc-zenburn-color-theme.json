@@ -280,7 +280,8 @@
             "name": "Tags",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#dc3958" // TODO
+                "foreground": "#FDECBC",
+                "fontStyle": "bold"
             }
         },
         {
@@ -320,14 +321,21 @@
         {
             "name": "Headings",
             "scope": [
-                "markup.heading",
-                "markup.heading.setext",
                 "punctuation.definition.heading",
-                "entity.name.section"
+                "markup.heading.setext",
             ],
             "settings": {
-                "fontStyle": "",
-                "foreground": "#8ab1b0"
+                "foreground": "#FDECBC",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Heading text",
+            "scope": [
+                "markup.heading",
+            ],
+            "settings": {
+                "fontStyle": "bold"
             }
         },
         {
@@ -344,8 +352,7 @@
                 "punctuation.definition.bold"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#f06431" // TODO
+                "fontStyle": "bold"
             }
         },
         {
@@ -355,43 +362,52 @@
                 "punctuation.definition.italic"
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#98676a" // TODO
+                "fontStyle": "italic"
             }
         },
         {
             "name": "Code",
-            "scope": "markup.inline.raw",
+            "scope": [
+                "markup.inline.raw",
+                "markup.fenced_code"
+            ],
             "settings": {
-                "foreground": "#889b4a" // TODO
+                "foreground": "#C4AD9E"
             }
         },
         {
             "name": "Link Text",
             "scope": "string.other.link",
             "settings": {
-                "foreground": "#dc3958" // TODO
+                "foreground": "#A0EDF0"
             }
         },
         {
             "name": "Link Url",
-            "scope": "meta.link",
+            "scope": [
+                "meta.link",
+                "markup.underline.link"
+            ],
             "settings": {
-                "foreground": "#f79a32" // TODO
+                "foreground": "#DAC0E9"
             }
         },
         {
-            "name": "Lists",
-            "scope": "markup.list",
+            "name": "Bullet",
+            "scope": [
+                "punctuation.definition.list.begin"
+            ],
             "settings": {
-                "foreground": "#dc3958" // TODO
+                "foreground": "#FDECBC",
+                "fontStyle": "bold"
             }
         },
         {
             "name": "Quotes",
             "scope": "markup.quote",
             "settings": {
-                "foreground": "#f79a32" // TODO
+                "foreground": "#ACD2AC",
+                "fontStyle": "italic"
             }
         },
         {
