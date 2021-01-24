@@ -34,7 +34,7 @@ Copyright (C)2020 Kyeongmin Cho
 - Author: Kyeongmin Cho <kyeongmin.cho@kaist.ac.kr>
 - URL: [https:github.com/drzix/hc-zenburn-vscode](https:github.com/drzix/hc-zenburn-vscode)
 
-Version 0.1
+Version 0.3
 
 This program is free software you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
