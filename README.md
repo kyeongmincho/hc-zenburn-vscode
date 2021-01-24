@@ -7,43 +7,25 @@ A Visual Studio Code theme,
 
 ## Language Support *(intended)*
 
-- Rust
+### **Rust** *with [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)*
 
 ![rust](images/rust.png)
 
-- Ocaml
+### **Ocaml** *with [OCaml and Resaon IDE](https://github.com/freebroccolo/vscode-reasonml.git)*
 
 ![ocaml](images/ocaml.png)
 
-*with [OCaml and Resaon IDE](https://github.com/freebroccolo/vscode-reasonml.git)*
-
-- Coq
+### **Coq** *with [VSCoq](https://github.com/coq-community/vscoq.git)*
 
 ![coq](images/coq.png)
 
-*with [VSCoq](https://github.com/coq-community/vscoq.git)*
-
-- C/C++
+### **C/C++**
 
 ![cpp](images/cpp.png)
 
-- Python
+### **Python**
 
 ![python](images/python.png)
-
-## Tips
-
-- If you use [Bracket Pair Colorizer 2](https://github.com/CoenraadS/Bracket-Pair-Colorizer-2), I suggest the color settings below:
-
-```json
-{
-    "bracket-pair-colorizer-2.colors": [
-        "#dbc27e",
-        "#f5dfde",
-        "#b7cfc4",
-    ],
-}
-```
 
 ## License
 
