@@ -640,6 +640,10 @@
             "foreground": "#9CC7FB",
             "fontStyle": ""
         },
+        "method": {
+            "foreground": "#A0EDF0",
+            "fontStyle": "",
+        },
         "namespace": {
             "foreground": "#C5BBCC",
             "fontStyle": "",
@@ -692,10 +696,6 @@
         },
         "variable": {
             "foreground": "#DCDCCC",
-            "fontStyle": "",
-        },
-        "*.static": {
-            "foreground": "#89C5C8",
             "fontStyle": "",
         },
 
