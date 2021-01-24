@@ -18,13 +18,6 @@
             }
         },
         {
-            "name": "Parameters",
-            "scope": "variable.parameter",
-            "settings": {
-                "foreground": "#ECBC9C"
-            }
-        },
-        {
             "name": "Comments",
             "scope": [
                 "comment",
@@ -103,6 +96,7 @@
                 "keyword.other.using",
                 "keyword.other.operator",
                 "storage.type",
+                "storage.modifier.mut",
                 "storage.modifier.const", // cpp const
                 "storage.modifier.static", // cpp static
                 "storage.modifier.inline", // cpp inline
@@ -454,13 +448,14 @@
             "name": "Embedded",
             "scope": [
                 "punctuation.section.embedded",
+                "punctuation.definition.interpolation",
                 "variable.interpolation",
                 "constant.character.format.placeholder", // python {}
                 "constant.other.placeholder",
                 "storage.type.format", // placeholder format
             ],
             "settings": {
-                "fontStyle": "bold",
+                "fontStyle": "italic",
                 "foreground": "#E090C7"
             }
         },
@@ -582,12 +577,122 @@
     ],
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "variable.declaration": "#ECBC9C",
-        "member": "#ECBC9C",
-        "lifetime": "#A97070",
-        "attribute": "#9CC7FB",
-        "namespace": "#CCF8CC",
-        "*.static": "#89C5C8",
-        "*.unsafe": "#E66666",
+        "attribute": {
+            "foreground": "#9CC7FB",
+            "fontStyle": "",
+        },
+        "boolean": {
+            "foreground": "#CCF8CC",
+            "fontStyle": "",
+        },
+        "class": {
+            "foreground": "#89C5C8",
+            "fontStyle": ""
+        },
+        "comment": {
+            "foreground": "#8CAC8C",
+            "fontStyle": "",
+        },
+        "comment.documentation": {
+            "foreground": "#ACD2AC",
+            "fontStyle": "",
+        },
+        "enum": {
+            "foreground": "#89C5C8",
+            "fontStyle": ""
+        },
+        "enumMember": {
+            "foreground": "#A2C6D1",
+            "fontStyle": ""
+        },
+        "formatSpecifier": {
+            "foreground": "#BEADC9",
+        },
+        "function": {
+            "foreground": "#A0EDF0",
+            "fontStyle": "",
+        },
+        "function.attribute": {
+            "foreground": "#9CC7FB",
+            "fontStyle": ""
+        },
+        "keyword": {
+            "foreground": "#FDECBC",
+            "bold": true,
+        },
+        "macro": {
+            "foreground": "#9CC7FB",
+            "fontStyle": ""
+        },
+        "namespace": {
+            "foreground": "#C5BBCC",
+            "fontStyle": "",
+        },
+        "number": {
+            "foreground": "#CCF8CC",
+            "fontStyle": "",
+        },
+        "operator": {
+            "foreground": "#EDDCAC"
+        },
+        "parameter": {
+            "foreground": "#DCDCCC",
+            "fontStyle": ""
+        },
+        "property": {
+            "foreground": "#ECBC9C",
+            "fontStyle": ""
+        },
+        "selfKeyword": {
+            "foreground": "#DDCC9C",
+            "italic": true,
+            "bold": false
+        },
+        "escapeSequence": {
+            "foreground": "#BEADC9"
+        },
+        "string": {
+            "foreground": "#D9A0A0"
+        },
+        "struct": {
+            "foreground": "#89C5C8",
+            "fontStyle": ""
+        },
+        "type": {
+			"foreground": "#89C5C8",
+			"fontStyle": ""
+        },
+        "typeAlias": {
+            "foreground": "#89C5C8",
+            "fontStyle": ""
+        },
+        "typeParameter": {
+            "foreground": "#89C5C8",
+            "fontStyle": ""
+        },
+        "union": {
+            "foreground": "#89C5C8",
+            "fontStyle": ""
+        },
+        "variable": {
+            "foreground": "#DCDCCC",
+            "fontStyle": "",
+        },
+        "*.static": {
+            "foreground": "#89C5C8",
+            "fontStyle": "",
+        },
+
+        // Rust
+        "lifetime": {
+            "foreground": "#A97070",
+            "italic": true
+        },
+        "*.mutable": {
+            "underline": true,
+        },
+        "*.unsafe": {
+            "foreground": "#E66666",
+        },
     }
 }
